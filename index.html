@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg-black">
+    <div class="backgroundimg h-[100vh] border-2 border-black ">
+      <nav class="bg-black flex justify-between items-center pr-5 -pl-2">
+        <div>
+        <img src="Images/Logo.svg" alt="Logo" class="-translate-x-2 -translate-y-1"/>
+        </div>
+        <div>
+            <ul class="text-white flex gap-6 text-[18px] ">
+                <li class="hover:text-yellow-300 hover:cursor-pointer">Home</li>
+                <li class="hover:text-yellow-300 hover:cursor-pointer">About</li>
+                <li class="hover:text-yellow-300 hover:cursor-pointer">Education</li>
+                <li class="hover:text-yellow-300 hover:cursor-pointer">Skills</li>
+                <li class="hover:text-yellow-300 hover:cursor-pointer">Projects</li>
+                <li class="hover:text-yellow-300 hover:cursor-pointer">Contact Me</li>
+            </ul>
+        </div>
+       </nav>
+       <div class="flex items-center justify-between h-full m-auto w-full">
+        <div class="flex justify-evenly items-center m-auto w-full">
+            <div class="text-white">
+                <h1 class="text-[58px]">
+                    <span class="text-[105px]">Hello!</span><br/>
+                    I am Pranav Chitlangia
+                </h1>
+                <p class="text-[34px]">
+                    I am a competitive coder and a full-stack developer<br/>
+                    Aiming to reach new heights<br/>
+                </p>
+            </div>
+            <div>
+                <div class="bg-white h-full w-full z-20"></div>
+                <img src="Images/profile.jpg" alt="image" class="rounded-full "/>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section max-w-[1080px] m-auto mt-10 bg-white p-4">
+       <div class="flex flex-col gap-12">
+        <h1 class="text-[48px] text-center bg-red-500 text-white">I am a...</h1>
+        <div class="flex justify-between items-center gap-2 border-b-2 border-black p-2">
+            <div>
+                <h1 class="text-[48px]">Full Stack Web Developer</h1>
+              <p>I am a Full Stack Web Developer.<br/>
+                 I love to build unique and beautiful sites.<br/>
+                 I always seek ways to convert my ideas to reality. <br/>
+              </p>
+            </div>
+            <div>
+                <img src="Images/web_developer.jpg" alt="web_developer"/>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center gap-2 border-b-2 border-black p-4">
+            <div>
+                <img src="Images/coder.jpeg" alt="coder"/>
+            </div>
+            <div>
+                <h1 class="text-[48px]">Competitive Coder</h1>
+              <p>I am a Full Stack Web Developer.<br/>
+                 I love to build unique and beautiful sites.<br/>
+                 I always seek ways to convert my ideas to reality. <br/>
+              </p>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center gap-2 p-2">
+            <div>
+                <h1 class="text-[48px]">Basketball Player</h1>
+              <p>I am a Full Stack Web Developer.<br/>
+                 I love to build unique and beautiful sites.<br/>
+                 I always seek ways to convert my ideas to reality. <br/>
+              </p>
+            </div>
+            <div>
+                <img src="Images/basketball.jpg" alt="basketball" class="w-[300px] h-[200px]" />
+            </div>
+        </div>
+
+       </div>
+    </div>
+
+    <div class="skills-section max-w-[1080px] m-auto mt-10 bg-gray-100 flex flex-col justify-center items-center gap-12 p-4">
+        <h1 class="text-[48px] text-center bg-red-500  w-full text-white">I Excel at...</h1>
+      <div class="grid grid-cols-3 items-center gap-16">
+         <img src="Images/c++.jpg" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/c.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/java.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/html.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/javascript.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/css.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/tailwind.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/react.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/node.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/express.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/mongo.png" alt="c++" class="rounded-full w-[150px] "/>
+         <img src="Images/sql.png" alt="c++" class="rounded-full w-[150px] "/>
+      </div>
+    </div>
+
+    <div class="contact-section flex flex-col items-center justify-center max-w-[1080px]  m-auto mt-12 bg-white gap-12 p-4" id="Contact Us">
+        <h1 class="text-[48px] bg-red-500 p-2 w-full text-center text-white">Contact Me</h1>
+
+            <form class="flex flex-col w-[70%] items-center justify-center">
+                
+                <input type="text" name="name" placeholder="Enter Your Name" class="bg-black w-full border border-white text-white p-2"/>
+                <input type="number" name="phone" placeholder="Enter your phone no." class="bg-black w-full border border-white text-white p-2"/>
+                <input type="email" name="email" placeholder="Enter Your Email Id" class="bg-black w-full border border-white text-white p-2"/>
+                <textarea rows="10" cols="10" placeholder="Enter your message" class="bg-black w-full border border-white text-white p-2"></textarea>
+                <input type="submit" class="bg-yellow-500 w-full text-[24px] p-2"/>
+            </form>
+
+    </div>
+
+    <div class="project-section flex flex-col items-center justify-center max-w-[1080px]  m-auto mt-12 bg-gray-100 gap-12 p-4 mb-12">
+        <h1 class="text-[48px] bg-red-500 p-2 w-full text-center text-white">Projects</h1>
+        <div class="grid grid-cols-3 gap-2 px-2">
+           <div class="relative hover:opacity-50 group">
+           <img src="Images/Project1.png" alt="project1" class="-z-1 group-hover:opacity-40"/>
+           <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+           </div>
+           <div class="relative hover:opacity-50 group">
+            <img src="Images/Project2.png" alt="project2" class="-z-1 group-hover:opacity-40"/>
+            <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+            </div>
+            <div class="relative hover:opacity-50 group">
+                <img src="Images/Project3.png" alt="project3" class="-z-1 group-hover:opacity-40"/>
+                <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+                </div>
+                <div class="relative hover:opacity-50 group">
+                    <img src="Images/Project4.png" alt="project4" class="-z-1 group-hover:opacity-40"/>
+                    <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+                    </div>
+                    <div class="relative hover:opacity-50 group">
+                        <img src="Images/Project5.png" alt="project5" class="-z-1 group-hover:opacity-40"/>
+                        <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+                        </div>
+                        <div class="relative hover:opacity-50 group">
+                            <img src="Images/Project6.png" alt="project6" class="-z-1 group-hover:opacity-40"/>
+                            <span class="absolute top-[70px] right-[90px] z-10 text-black group-hover:flex group-hover:opacity-100 font-black hidden">Open Project -></span>
+                        </div>
+        </div>
+
+    </div>
+
+    <div class="education-section flex flex-col items-center justify-center max-w-[1080px]  m-auto mt-12 bg-gray-100 gap-12 p-4 mb-12">
+        <h1 class="text-[48px] bg-red-500 p-2 w-full text-center text-white">Education</h1>
+        <div class="flex flex-col gap-12 items-center justify-center">
+        <div class="flex items-center justify-between gap-12">
+            <div>
+               <h1 class="text-[48px] ">The Palace School</h1>
+               <p>I completed my 10th and 12th from The Palace School.<br/>It is a great school and I enjoyed the time i spend here</p>
+               <p>I scored 94% in 10th boards</p>
+               <p>I scored 91.1% in 12th Boards</p>
+            </div>
+            <div>
+               <img src="Images/school.jpeg" alt="school"/>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-between gap-12">
+            <div>
+               <img src="Images/dsce.jpeg" alt="college"/>
+            </div>
+            <div>
+                <h1 class="text-[48px] ">Dayananda Sagar<br/> College of Engineering</h1>
+                <p>I am pursuing B.Teach in Compute Science And Engineering in DSCE.<br/>It is a great place and has all the facilities that i need</p>
+                <p>My Overall CGPA upto 3rd sem is 9.175</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+       <div class="flex justify-evenly items-center bg-white h-[50px] font-black text-[18px]">
+          <p >All Rights Reserved&copy;2023</p>
+          <p>Pranav Chitlangia</p>
+       </div>
+    </div>
+</body>
+</html>
